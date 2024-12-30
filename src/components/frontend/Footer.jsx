@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { FaInstagram, FaXTwitter, FaFacebook, FaLinkedin } from "react-icons/fa6";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { motion } from "framer-motion"; // Import Framer Motion for animations
