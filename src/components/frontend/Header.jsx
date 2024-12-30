@@ -5,12 +5,12 @@ import Link from "next/link";
 import {
     FaInstagram,
     FaFacebook,
-    FaLinkedin,
     FaSearch,
     FaBars,
     FaChevronDown,
     FaChevronUp,
 } from "react-icons/fa";
+import { AiOutlineYoutube } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 // import menuData from "../../app/menuData";
 import { motion } from "framer-motion";
@@ -35,18 +35,28 @@ const Header = () => {
             {/* Upper Header */}
             <div className="bg-[#E6F2EF] hidden md:flex items-center justify-between px-4 py-2 text-sm">
                 <div className="flex items-center space-x-3 text-[#00634A]">
-                    <span>Call Us: +xxxxxxxxxx</span>
+                    <span>Call Us:+91 99224 20150</span>
                     <span className="border-l h-5 border-[#00634A] px-1">
-                        ngo@example.com
+                    birsamundamf@gmail.com
                     </span>
                    
                 </div>
                 <div className="flex space-x-2 items-end">
-                        <FaInstagram className="hover:text-[#588D7F]" />
-                        <FaXTwitter className="hover:text-[#588D7F]" />
-                        <FaFacebook className="hover:text-[#588D7F]" />
-                        <FaLinkedin className="hover:text-[#588D7F]" />
-                    </div>
+              
+  <Link href="https://www.instagram.com/birsamundamf/" target="_blank" passHref>
+    <FaInstagram className="hover:text-[#588D7F]" />
+  </Link>
+  <Link href="https://twitter.com" target="_blank" passHref>
+    <FaXTwitter className="hover:text-[#588D7F]" />
+  </Link>
+  <Link href="https://www.facebook.com/birsamf/" target="_blank" passHref>
+    <FaFacebook className="hover:text-[#588D7F]" />
+  </Link>
+  <Link href="https://www.linkedin.com" target="_blank" passHref>
+    <AiOutlineYoutube className="hover:text-[#588D7F]" />
+  </Link>
+</div>
+                 
             </div>
 
             {/* Navbar */}

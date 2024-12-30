@@ -12,23 +12,23 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 const BannerSlider = () => {
     const slides = [
         {
-            image: "/images/1920x1080.jpg",
+            image: "https://plus.unsplash.com/premium_photo-1661775317533-2163ba4dbc93?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             text: "Empowering Communities for a Better Tomorrow",
         },
         {
-            image: "/images/1920x1080.jpg",
+            image: "https://plus.unsplash.com/premium_photo-1661775311740-7eb652fa31cc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             text: "Join Us in Making a Difference",
         },
         {
-            image: "/images/1920x1080.jpg",
+            image: "https://plus.unsplash.com/premium_photo-1683121334505-907a00cf904c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             text: "Together, We Can Change Lives",
         },
         {
-            image: "/images/1920x1080.jpg",
+            image: "https://plus.unsplash.com/premium_photo-1683134550057-883047f89dd5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             text: "Building a Brighter Future for All",
         },
         {
-            image: "/images/1920x1080.jpg",
+            image: "https://images.unsplash.com/photo-1706645740830-399b0da87ba1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             text: "Be the Change You Want to See",
         },
     ];

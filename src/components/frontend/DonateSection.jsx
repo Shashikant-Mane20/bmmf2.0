@@ -79,17 +79,17 @@ import { motion } from "framer-motion"; // Importing Framer Motion for animation
 const DonateSection = () => {
     const cards = [
         {
-            image: "/images/320x240.jpg",
+            image: "/images/causes/c1.jpeg",
             title: "Support Education",
             icon: <FaBook className="text-4xl text-[#FF6347]" />, // Colorful icon for Education
         },
         {
-            image: "/images/320x240.jpg",
+            image: "/images/causes/c2.jpeg",
             title: "Feed the Hungry",
             icon: <FaHeartbeat className="text-4xl text-[#FF4500]" />, // Colorful icon for Feed the Hungry
         },
         {
-            image: "/images/320x240.jpg",
+            image: "/images/causes/c3.jpeg",
             title: "Care for Animals",
             icon: <FaHandsHelping className="text-4xl text-[#32CD32]" />, // Colorful icon for Animal Care
         },

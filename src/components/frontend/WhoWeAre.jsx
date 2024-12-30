@@ -141,7 +141,7 @@ const WhoWeAre = () => {
         >
           <div className="w-full h-[300px]">
             <img
-              src="/images/320x240.jpg"
+              src="https://plus.unsplash.com/premium_photo-1663089870095-c231a534ac31?q=80&w=2051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Helping Hands"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
@@ -162,7 +162,7 @@ const WhoWeAre = () => {
         >
           <div className="w-full h-[300px]">
             <img
-              src="/images/320x240.jpg"
+              src="https://images.unsplash.com/photo-1529209076408-5a115ec9f1c6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Community Support"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
@@ -183,7 +183,7 @@ const WhoWeAre = () => {
         >
           <div className="w-full h-[300px]">
             <img
-              src="/images/320x240.jpg"
+              src="https://plus.unsplash.com/premium_photo-1681825054807-2e7bb610a6e7?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Dedicated Volunteers"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
