@@ -1,7 +1,8 @@
 // pages/blog/index.js
 import { blogs } from '../../data/Blog';  // Importing blog data
-import Sidebar from './Sidebar';
+// import Sidebar from './Sidebar';
 import BlogCard from './BlogCard';
+import Sidebar from './SideBar';
 
 const BlogPage = () => {
   return (
@@ -16,6 +17,8 @@ const BlogPage = () => {
 
         {/* Sidebar (Recent blogs and Categories) */}
         <Sidebar blogs={blogs} />
+     
+
       </div>
     </div>
   );
