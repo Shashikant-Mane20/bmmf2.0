@@ -45,7 +45,7 @@ const menuData = [
     name: "About Us",
     href: "",
     submenu: [
-      { name: "About Us", href: "/about-us" },
+      { name: "Who we are?", href: "/who-we-are" },
       { name: "Our Team", href: "/our-team" },
       { name: "Careers", href: "/careers" },
     ]
