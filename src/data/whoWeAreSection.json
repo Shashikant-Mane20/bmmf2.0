@@ -1,0 +1,21 @@
+[
+    {
+      "image": "https://plus.unsplash.com/premium_photo-1663089870095-c231a534ac31?q=80&w=2051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Helping Hands",
+      "description": "Providing essential support to communities in need, ensuring brighter futures.",
+      "textColor": "#588D7F"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1529209076408-5a115ec9f1c6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Community Support",
+      "description": "Empowering communities through education, resources, and healthcare.",
+      "textColor": "#00634A"
+    },
+    {
+      "image": "https://plus.unsplash.com/premium_photo-1681825054807-2e7bb610a6e7?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Dedicated Volunteers",
+      "description": "A passionate team committed to making a difference in people's lives.",
+      "textColor": "#588D7F"
+    }
+  ]
+  

@@ -1,0 +1,21 @@
+[
+    {
+      "image": "/images/causes/c1.jpeg",
+      "title": "Support Education",
+      "icon": "FaBook",
+      "color": "#FF6347"
+    },
+    {
+      "image": "/images/causes/c2.jpeg",
+      "title": "Feed the Hungry",
+      "icon": "FaHeartbeat",
+      "color": "#FF4500"
+    },
+    {
+      "image": "/images/causes/c3.jpeg",
+      "title": "Care for Animals",
+      "icon": "FaHandsHelping",
+      "color": "#32CD32"
+    }
+  ]
+  

@@ -5,10 +5,14 @@ import Link from "next/link";
 import { FaInstagram, FaXTwitter, FaFacebook, FaLinkedin } from "react-icons/fa6";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { motion } from "framer-motion"; // Import Framer Motion for animations
+import contactDetails from "../../data/contactDetails";
 
 const Footer = () => {
+  const { address, email, phone } = contactDetails;
   return (
-    <footer className="bg-[#e6f2ef] text-[#333] py-10">
+    <section className="bg-[#e6f2ef]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className=" text-[#333] py-10">
       <div className="container mx-auto px-4">
         {/* Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -23,8 +27,8 @@ const Footer = () => {
             {/* <p className="text-sm mb-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste facilis magni fuga tenetur alias quis nemo in velit voluptate optio minima perspiciatis a, impedit culpa sunt omnis corporis molestiae ducimus?
             </p> */}
-            <p className="text-sm">Call us: +91 99224 20150</p>
-            <p className="text-sm">Plot No.112, Kishor Suryawanshi Marg, Road, Omkar Nagar, Nashik, Maharashtra 422004</p>
+            <p className="text-sm">Call us:{phone}</p>
+            <p className="text-sm">{address}</p>
           </motion.div>
 
           {/* Latest Posts Section */}
@@ -168,6 +172,8 @@ const Footer = () => {
         </motion.div>
       </div>
     </footer>
+    </div>
+          </section>
   );
 };
 
