@@ -23,7 +23,7 @@ const Footer = () => {
             {/* <p className="text-sm mb-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste facilis magni fuga tenetur alias quis nemo in velit voluptate optio minima perspiciatis a, impedit culpa sunt omnis corporis molestiae ducimus?
             </p> */}
-            <p className="text-sm">Call us: +91 7276162374</p>
+            <p className="text-sm">Call us: +91 99224 20150</p>
             <p className="text-sm">Plot No.112, Kishor Suryawanshi Marg, Road, Omkar Nagar, Nashik, Maharashtra 422004</p>
           </motion.div>
 
