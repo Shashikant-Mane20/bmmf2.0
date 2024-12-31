@@ -19,12 +19,12 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-[#00634A] font-bold text-lg mb-4">About Us</h3>
-            <p className="text-sm mb-4">
+            <h3 className="text-[#00634A] font-bold text-lg mb-4">Contact Us</h3>
+            {/* <p className="text-sm mb-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste facilis magni fuga tenetur alias quis nemo in velit voluptate optio minima perspiciatis a, impedit culpa sunt omnis corporis molestiae ducimus?
-            </p>
+            </p> */}
             <p className="text-sm">Call us: +91 7276162374</p>
-            <p className="text-sm">Plot No.112, 112, Kishor Suryawanshi Marg, Road, Omkar Nagar, Nashik, Maharashtra 422004</p>
+            <p className="text-sm">Plot No.112, Kishor Suryawanshi Marg, Road, Omkar Nagar, Nashik, Maharashtra 422004</p>
           </motion.div>
 
           {/* Latest Posts Section */}
