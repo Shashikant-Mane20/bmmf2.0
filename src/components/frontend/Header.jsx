@@ -15,9 +15,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import menuData from "@/data/menuData";
 import contactDetails from "../../data/contactDetails";
+import socialLinks from "../../data/socialLinks";
 
 const Header = () => {
     const { address, email, phone } = contactDetails;
+    const {instagram,youtube,x,facebook} = socialLinks;
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeAccordion, setActiveAccordion] = useState(null);
 
@@ -46,16 +48,16 @@ const Header = () => {
                             </span>
                         </div>
                         <div className="flex space-x-2 items-end">
-                            <Link href="https://www.instagram.com/birsamundamf/" target="_blank" passHref>
+                            <Link href={instagram} target="_blank" passHref>
                                 <FaInstagram className="hover:text-[#588D7F]" />
                             </Link>
-                            <Link href="https://twitter.com" target="_blank" passHref>
+                            <Link href={x} target="_blank" passHref>
                                 <FaXTwitter className="hover:text-[#588D7F]" />
                             </Link>
-                            <Link href="https://www.facebook.com/birsamf/" target="_blank" passHref>
+                            <Link href={facebook} target="_blank" passHref>
                                 <FaFacebook className="hover:text-[#588D7F]" />
                             </Link>
-                            <Link href="https://www.linkedin.com" target="_blank" passHref>
+                            <Link href={youtube} target="_blank" passHref>
                                 <AiOutlineYoutube className="hover:text-[#588D7F]" />
                             </Link>
                         </div>
@@ -216,16 +218,16 @@ const Header = () => {
                                     <span>Call Us: {phone}</span>
                                     <span>Email: {email}</span>
                                     <div className="flex space-x-2 items-center">
-                                        <Link href="https://www.instagram.com/birsamundamf/" target="_blank">
+                                        <Link href={instagram} target="_blank">
                                             <FaInstagram className="hover:text-[#588D7F]" />
                                         </Link>
-                                        <Link href="https://twitter.com" target="_blank">
+                                        <Link href={x} target="_blank">
                                             <FaXTwitter className="hover:text-[#588D7F]" />
                                         </Link>
-                                        <Link href="https://www.facebook.com/birsamf/" target="_blank">
+                                        <Link href={facebook} target="_blank">
                                             <FaFacebook className="hover:text-[#588D7F]" />
                                         </Link>
-                                        <Link href="https://www.linkedin.com" target="_blank">
+                                        <Link href={youtube} target="_blank">
                                             <AiOutlineYoutube className="hover:text-[#588D7F]" />
                                         </Link>
                                     </div>
