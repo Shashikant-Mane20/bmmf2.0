@@ -1,5 +1,5 @@
 "use client";
-// pages/donate.js
+
 import React, { useState } from "react";
 
 export default function DonatePage() {
@@ -19,9 +19,9 @@ export default function DonatePage() {
   return (
     <div className="min-h-screen bg-green-50 py-10 px-4">
       <div className="max-w-7xl mx-auto">
-        {/* Top Section: Image and Donation Form */}
+       
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-          {/* Image Section */}
+         
           <div className="flex items-center justify-center">
             <img
               src="https://plus.unsplash.com/premium_photo-1683140538884-07fb31428ca6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -30,7 +30,7 @@ export default function DonatePage() {
             />
           </div>
 
-          {/* Donation Form Section */}
+   
           <div className="bg-white p-8">
             <h2 className="text-2xl font-bold text-green-700 mb-4">
               Make a Donation
@@ -40,7 +40,6 @@ export default function DonatePage() {
               amount or enter a custom one to support our cause.
             </p>
 
-            {/* Predefined Amounts */}
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 Select Amount
@@ -56,7 +55,7 @@ export default function DonatePage() {
                     }`}
                     onClick={() => {
                       setSelectedAmount(amount);
-                      setCustomAmount(amount); // Set the custom amount input box value
+                      setCustomAmount(amount); 
                     }}
                   >
                     ₹{amount}
@@ -65,24 +64,24 @@ export default function DonatePage() {
               </div>
             </div>
 
-            {/* Custom Amount */}
+          
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 Or Enter a Custom Amount
               </label>
               <input
                 type="number"
-                value={customAmount} // Reflect selected amount or custom input
+                value={customAmount} 
                 onChange={(e) => {
                   setCustomAmount(e.target.value);
-                  setSelectedAmount(""); // Clear predefined selection when custom input is edited
+                  setSelectedAmount(""); 
                 }}
                 className="w-full px-4 py-2 border border-gray-300 focus:ring-green-500 focus:border-green-500"
                 placeholder="Enter custom amount"
               />
             </div>
 
-            {/* Comment Box */}
+         
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 Add a Comment (Optional)
@@ -96,7 +95,7 @@ export default function DonatePage() {
               />
             </div>
 
-            {/* Donate Button */}
+         
             <button
               onClick={handleDonateClick}
               className="w-full py-3 bg-green-600 text-white font-bold hover:bg-green-700"
@@ -106,7 +105,7 @@ export default function DonatePage() {
           </div>
         </div>
 
-        {/* Bottom Section: Other Ways to Contribute */}
+       
         <div className="bg-white p-8">
           <h3 className="text-2xl font-bold text-green-700 mb-4">
             Other Ways to Contribute

@@ -82,7 +82,7 @@ const Header = () => {
                             <div className="flex items-center justify-center md:justify-start flex-shrink-0">
                                 <Link href="/">
                                     <img
-                                        src="/images/01.png"
+                                        src="/images/02.png"
                                         alt="logo"
                                         className="w-20 h-auto md:w-28"
                                     />
