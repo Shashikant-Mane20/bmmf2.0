@@ -1,43 +1,15 @@
-// import mongoose from "mongoose";
-
-// // const MONGODB_URI = process.env.MONGODB_URI;
-// const MONGODB_URI = 'mongodb+srv://shashikantmane:a6cdkkrGXu4b5w2H@cluster0.2gwma.mongodb.net/';
-
-// if (!MONGODB_URI) {
-//   throw new Error("Please define the MONGODB_URI environment variable.");
-// }
-
-// let cached = global.mongoose;
-// if (!cached) {
-//   cached = global.mongoose = { conn: null, promise: null };
-// }
-
-// async function dbConnect() {
-//   if (cached.conn) {
-//     return cached.conn;
-//   }
-
-//   if (!cached.promise) {
-//     cached.promise = mongoose.connect(MONGODB_URI).then((mongoose) => mongoose);
-//   }
-//   cached.conn = await cached.promise;
-//   return cached.conn;
-// }
-
-// export default dbConnect;
-
-
 import mongoose from "mongoose";
 
-const MONGODB_URI = 'mongodb+srv://shashikantmane:a6cdkkrGXu4b5w2H@cluster0.2gwma.mongodb.net/';
+// const MONGODB_URI = process.env.MONGODB_URI;
+// const MONGODB_URI = 'mongodb+srv://shashikantmane:a6cdkkrGXu4b5w2H@cluster0.2gwma.mongodb.net/';
+const MONGODB_URI = 'mongodb+srv://shashikantmane:a6cdkkrGXu4b5w2H@cluster0.2gwma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+
 
 if (!MONGODB_URI) {
   throw new Error("Please define the MONGODB_URI environment variable.");
 }
 
-// Global cache to prevent multiple connections
 let cached = global.mongoose;
-
 if (!cached) {
   cached = global.mongoose = { conn: null, promise: null };
 }
@@ -48,17 +20,8 @@ async function dbConnect() {
   }
 
   if (!cached.promise) {
-    cached.promise = mongoose
-      .connect(MONGODB_URI, {
-        serverSelectionTimeoutMS: 10000, // Timeout after 10 seconds
-      })
-      .then((mongoose) => mongoose)
-      .catch((err) => {
-        console.error("MongoDB connection error:", err);
-        throw err;
-      });
+    cached.promise = mongoose.connect(MONGODB_URI).then((mongoose) => mongoose);
   }
-
   cached.conn = await cached.promise;
   return cached.conn;
 }
