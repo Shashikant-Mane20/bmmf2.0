@@ -1,14 +1,5 @@
 import mongoose from "mongoose";
 
-<<<<<<< HEAD
-const MONGODB_URI = process.env.MONGODB_URI;
-
-
-=======
-// const MONGODB_URI = process.env.MONGODB_URI;
->>>>>>> 04be21579afe1bb2b2e58f8f0d778ecf580ee4e3
-
-// const MONGODB_URI= 'mongodb+srv://shashikantmane:a6cdkkrGXu4b5w2H@cluster0.2gwma.mongodb.net/';
 const MONGODB_URI= 'mongodb+srv://shashikantmane:a6cdkkrGXu4b5w2H@cluster0.2gwma.mongodb.net/';
 
 if (!MONGODB_URI) {
